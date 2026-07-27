@@ -29,17 +29,12 @@ export async function POST(request: NextRequest) {
   await fs.writeFile(filePath, Buffer.from(await file.arrayBuffer()));
 
   const document = await prisma.document.create({
-    data: {
-      name: fileName,
-      originalName: file.name,
-      mimeType: file.type || 'application/octet-stream',
-      size: file.size,
-      storagePath: `/uploads/${kind === 'avatar' ? 'avatars' : kind === 'case' ? 'cases' : kind === 'appointment' ? 'appointments' : 'documents'}/${fileName}`,
-      kind,
-      uploadedById: user.id,
-      caseId: caseId || null,
-      appointmentId: appointmentId || null,
-    },
+  data: {
+    name: fileName,
+    storagePath: `/uploads/${kind === 'avatar' ? 'avatars' : kind === 'case' ? 'cases' : kind === 'appointment' ? 'appointments' : 'documents'}/${fileName}`,
+    kind,
+    uploadedById: user.id,
+  },
   });
 
   return NextResponse.json({ ok: true, document });

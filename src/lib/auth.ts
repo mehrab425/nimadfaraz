@@ -89,9 +89,7 @@ export async function getSessionUserFromCookieStore() {
       select: {
         id: true,
         username: true,
-        email: true,
-        fullName: true,
-        role: true
+        role: true,
       },
     });
   } catch {
@@ -115,8 +113,6 @@ export async function getUserFromRequest(request: NextRequest) {
       select: {
         id: true,
         username: true,
-        email: true,
-        fullName: true,
         role: true
       },
     });

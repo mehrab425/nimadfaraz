@@ -15,7 +15,7 @@ export default async function AdminAppointmentsPage() {
         <p className="mt-2 text-sm text-secondary">کل درخواست‌های ثبت شده: {appointments.length}</p>
         
         <div className="mt-8 space-y-4">
-          {appointments.length ? appointments.map((item) => (
+          {appointments.length ? appointments.map((item: any) => (
             <div key={item.id} className="rounded-[24px] border border-white/10 bg-black/20 p-6">
               <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
                 <div>

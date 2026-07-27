@@ -32,11 +32,17 @@ export async function getUserDashboard(user: SessionUser) {
   });
 
   const appointments = await prisma.appointment.findMany({
-    where: user.role === 'CLIENT' ? { clientId: user.id } : user.role === 'LAWYER' ? { lawyerId: user.id } : {},
-    orderBy: { createdAt: 'desc' },
-    take: 5,
-    include: { lawyer: true },
-  });
+  where: {
+    userId: user.id
+  },
+  orderBy: {
+    createdAt: "desc"
+  },
+  take: 5,
+  include: {
+    user: true
+  }
+});
 
   const notifications = await prisma.notification.findMany({
     where: { userId: user.id },
@@ -49,10 +55,16 @@ export async function getUserDashboard(user: SessionUser) {
 
 export async function getUserAppointments(user: SessionUser) {
   return prisma.appointment.findMany({
-    where: user.role === 'CLIENT' ? { clientId: user.id } : user.role === 'LAWYER' ? { lawyerId: user.id } : {},
-    orderBy: { createdAt: 'desc' },
-    include: { lawyer: true, client: true },
-  });
+  where: {
+    userId: user.id
+  },
+  orderBy: {
+    createdAt: "desc"
+  },
+  include: {
+    user: true
+  }
+});
 }
 
 export async function getUserCases(user: SessionUser) {
@@ -65,7 +77,12 @@ export async function getUserCases(user: SessionUser) {
 
 export async function getUserDocuments(user: SessionUser) {
   return prisma.document.findMany({
-    where: user.role === 'CLIENT' ? { clientId: user.id } : user.role === 'LAWYER' ? { uploadedById: user.id } : {},
-    orderBy: { createdAt: 'desc' },
+    where: {
+      uploadedById: user.id,
+    },
+    orderBy: {
+      createdAt: "desc",
+    },
   });
 }
+

@@ -38,7 +38,6 @@ export async function POST(request: NextRequest) {
       subject,
       category,
       description: description || null,
-      attachmentPath,
       userId: user?.id || null,
     },
   });

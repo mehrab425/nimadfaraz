@@ -34,7 +34,7 @@ export default async function AdminPage() {
           <div className="rounded-[24px] border border-white/10 bg-cosmic/70 p-6">
             <h2 className="text-xl font-semibold text-white">آخرین درخواست‌های ملاقات</h2>
             <div className="mt-4 space-y-3">
-              {recentAppointments.length ? recentAppointments.map((item) => (
+              {recentAppointments.length ? recentAppointments.map((item: any) => (
                 <div key={item.id} className="rounded-2xl border border-white/10 bg-black/20 p-4">
                   <p className="font-semibold text-white">{item.subject}</p>
                   <p className="text-sm text-secondary">{item.email} · {item.status}</p>
