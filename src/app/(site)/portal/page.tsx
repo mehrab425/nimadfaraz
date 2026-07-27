@@ -39,7 +39,7 @@ export default async function PortalPage() {
               <Link href="/portal/cases" className="text-sm text-gold hover:underline">مشاهده همه</Link>
             </div>
             <div className="space-y-3">
-              {data.cases.length ? data.cases.map((item) => (
+              {data.cases.length ? data.cases.map((item: any) => (
                 <div key={item.id} className="rounded-2xl border border-white/10 bg-black/20 p-4">
                   <div className="flex items-center justify-between gap-3">
                     <div>

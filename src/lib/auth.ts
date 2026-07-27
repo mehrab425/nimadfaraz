@@ -88,9 +88,10 @@ export async function getSessionUserFromCookieStore() {
       where: { id: payload.id },
       select: {
         id: true,
+        username: true,
         email: true,
         fullName: true,
-        role: true,
+        role: true
       },
     });
   } catch {
@@ -113,9 +114,10 @@ export async function getUserFromRequest(request: NextRequest) {
       where: { id: payload.id },
       select: {
         id: true,
+        username: true,
         email: true,
         fullName: true,
-        role: true,
+        role: true
       },
     });
   } catch {
