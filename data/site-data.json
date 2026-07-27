@@ -1,0 +1,143 @@
+{
+  "brand": {
+    "name": "موسسه حقوقی نیماد فراز پارس",
+    "slogan": "حراست از حق، رسالت ماست.",
+    "logo": "/images/logo.png"
+  },
+  "contact": {
+    "phones": ["02166931044", "02166946983"],
+    "whatsapp": "989124282401",
+    "telegram": "nimadfarazpars",
+    "instagram": "nimadfarazpars",
+    "email": "nimadfarazparssabt@gmail.com",
+    "address": "تهران، ستارخان، توحید، خیابان پرچم، کوچه امامی آل آقا، پلاک 1، واحد 3",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.987654321!2d51.404343!3d35.757825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQ1JzI4LjIiTiA1McKwMjQnMTUuNiJF!5e0!3m2!1sfa!2sir!4v1700000000000!5m2!1sfa!2sir"
+  },
+  "statistics": [
+    { "value": 1000, "suffix": "+", "label": "پرونده موفق" },
+    { "value": 10, "suffix": "+", "label": "وکیل متخصص" },
+    { "value": 15, "suffix": "+", "label": "سال تجربه" },
+    { "value": 100, "suffix": "%", "label": "رضایت موکلین" }
+  ],
+  "whyChooseUs": [
+    {
+      "title": "تخصص",
+      "description": "تیم حقوقی با تمرکز بر حوزه‌های تخصصی کیفری، مدنی و تجاری."
+    },
+    {
+      "title": "تجربه",
+      "description": "بیش از یک دهه همراهی با موکلین در پرونده‌های پیچیده و حساس."
+    },
+    {
+      "title": "تعهد",
+      "description": "پیگیری جدی منافع موکل با رعایت اخلاق حرفه‌ای وکالت."
+    },
+    {
+      "title": "شفافیت",
+      "description": "گزارش‌دهی روشن از مراحل پرونده، هزینه‌ها و نتایج احتمالی."
+    },
+    {
+      "title": "پیگیری مستمر",
+      "description": "هماهنگی منظم با مراجع قضایی تا رسیدن به بهترین نتیجه."
+    },
+    {
+      "title": "موفقیت در پرونده‌ها",
+      "description": "سوابق درخشان در پرونده‌های ملکی، خانواده، کیفری و شرکت‌ها."
+    }
+  ],
+  "cooperationSteps": [
+    { "title": "مشاوره اولیه رایگان", "description": "بررسی اولیه موضوع و ارائه راهکار حقوقی." },
+    { "title": "بررسی مدارک", "description": "تحلیل دقیق اسناد و مستندات پرونده." },
+    { "title": "قبول وکالت و تنظیم قرارداد", "description": "شفاف‌سازی تعهدات طرفین و آغاز رسمی وکالت." },
+    { "title": "پیگیری مستمر", "description": "اقدامات قضایی و مذاکرات تا حصول نتیجه." },
+    { "title": "نتیجه نهایی", "description": "اطلاع‌رسانی نتیجه و مشاوره پس از پرونده." }
+  ],
+  "services": [
+    {
+      "id": "civil",
+      "title": "دعاوی حقوقی",
+      "description": "طرح و دفاع در دعاوی مدنی، مطالبه وجه، خسارت و الزام به انجام تعهد.",
+      "icon": "Scale"
+    },
+    {
+      "id": "criminal",
+      "title": "دعاوی کیفری",
+      "description": "دفاع تخصصی در پرونده‌های کیفری شامل سرقت، جرایم علیه اشخاص و اموال.",
+      "icon": "Gavel"
+    },
+    {
+      "id": "property",
+      "title": "امور ملکی",
+      "description": "تنظیم قراردادها، رفع تصرف، خلع ید و دعاوی مربوط به املاک.",
+      "icon": "Building2"
+    },
+    {
+      "id": "registry",
+      "title": "امور ثبتی",
+      "description": "پیگیری امور ثبتی، اصلاح سند، تقسیم‌نامه و امور ملکی ثبتی.",
+      "icon": "FileStack"
+    },
+    {
+      "id": "contracts",
+      "title": "تنظیم قراردادها",
+      "description": "تدوین قراردادهای تجاری، استخدامی، مشارکت و سرمایه‌گذاری.",
+      "icon": "FileSignature"
+    },
+    {
+      "id": "consulting",
+      "title": "مشاوره حقوقی",
+      "description": "مشاوره تخصصی برای اشخاص حقیقی و حقوقی پیش از اقدام قضایی.",
+      "icon": "MessagesSquare"
+    },
+    {
+      "id": "arbitration",
+      "title": "داوری",
+      "description": "تنظیم شرط داوری و پیگیری پرونده‌های داوری تجاری.",
+      "icon": "Handshake"
+    },
+    {
+      "id": "family",
+      "title": "خانواده",
+      "description": "طلاق، مهریه، حضانت، نفقه و سایر دعاوی خانواده.",
+      "icon": "HeartHandshake"
+    },
+    {
+      "id": "corporate",
+      "title": "شرکت‌ها",
+      "description": "ثبت شرکت، تغییرات اساسنامه، انحلال و دعاوی تجاری.",
+      "icon": "Briefcase"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "آقای رضایی",
+      "role": "موکل — پرونده ملکی",
+      "quote": "از شفافیت و پیگیری مستمر تیم موسسه بسیار راضی بودم. پرونده ما در زمان کوتاه‌تری از انتظار به نتیجه رسید.",
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "name": "خانم محمدی",
+      "role": "موکل — دعاوی خانواده",
+      "quote": "در یکی از سخت‌ترین دوران زندگی، مشاوره دقیق و همراهی حرفه‌ای این موسسه آرامش خاطر به من داد.",
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "name": "شرکت فناوران نوین",
+      "role": "موکل حقوقی",
+      "quote": "برای تنظیم قراردادهای پیچیده تجاری، تخصص و دقت این تیم بی‌نظیر بود.",
+      "rating": 5
+    }
+  ],
+  "homepage": {
+    "heroImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1600&q=80",
+    "heroGallery": [
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80"
+    ],
+    "aboutImage": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80"
+  }
+}
