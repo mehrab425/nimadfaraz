@@ -14,9 +14,9 @@ type HeroProps = {
 };
 
 const defaultHeroGallery = [
-  "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80",
-  "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+  "/images/1.avif",
+  "/images/2.avif",
+  "/images/3.avif",
 ];
 
 export function HeroSection({ brandName, slogan, logo, heroImage, heroGallery }: HeroProps) {
